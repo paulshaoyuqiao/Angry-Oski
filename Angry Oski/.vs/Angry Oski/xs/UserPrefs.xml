@@ -1,23 +1,19 @@
 ﻿<Properties StartupConfiguration="{EB1C78D9-5AA1-8AA5-6FFF-C3AB693ADFFE}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/LMenu.cs">
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Test.cs">
     <Files>
-      <File FileName="Assets/Borders.cs" Line="9" Column="39" />
-      <File FileName="Assets/Spawn.cs" Line="20" Column="22" />
-      <File FileName="Assets/PullRelease.cs" Line="13" Column="37" />
-      <File FileName="Assets/BreakUponImpact.cs" Line="23" Column="6" />
-      <File FileName="Assets/CollisionSpawnOnce.cs" Line="14" Column="6" />
-      <File FileName="Assets/Path.cs" Line="15" Column="6" />
-      <File FileName="Assets/RubberAction.cs" Line="28" Column="60" />
-      <File FileName="Assets/BreakOnImpactExceptItIsAnL.cs" Line="16" Column="22" />
-      <File FileName="Assets/LMenu.cs" Line="1" Column="1" />
+      <File FileName="Assets/Script/Slinger/Spawn.cs" Line="36" Column="1" />
+      <File FileName="Assets/UPAToolkit/Editor/UPASession.cs" Line="169" Column="1" />
+      <File FileName="Assets/MenuTemplate/Scripts/UIAndMenu/SceneLoader.cs" Line="27" Column="1" />
+      <File FileName="Assets/RubberAction.cs" Line="1" Column="1" />
+      <File FileName="Assets/Spawn.cs" Line="19" Column="5" />
+      <File FileName="Assets/Test.cs" Line="14" Column="19" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp-Editor PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
 </Properties>
