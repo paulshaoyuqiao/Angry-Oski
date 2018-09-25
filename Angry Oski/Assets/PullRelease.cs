@@ -8,7 +8,7 @@ public class PullRelease : MonoBehaviour {
     Vector2 startPos;
 
     //The Default Force Added to Oski upon its Release
-    public float force = 1300;
+    public float force = 100;
 
     //Initialization of the Position
     private void Start()
