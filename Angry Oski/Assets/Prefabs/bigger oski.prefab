@@ -25,9 +25,10 @@ GameObject:
   - component: {fileID: 114697751601827716}
   - component: {fileID: 114529685111844518}
   - component: {fileID: 114408316517536306}
+  - component: {fileID: 114158891090485698}
   m_Layer: 0
   m_Name: bigger oski
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54,13 +55,13 @@ Rigidbody2D:
   m_GameObject: {fileID: 1109505209602272}
   m_BodyType: 1
   m_Simulated: 1
-  m_UseFullKinematicContacts: 0
+  m_UseFullKinematicContacts: 1
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 0
+  m_LinearDrag: 0.1
   m_AngularDrag: 0.05
   m_GravityScale: 4
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 0856fb95680a44b28821b24ff5c41a5e, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
@@ -80,6 +81,17 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0.2}
   serializedVersion: 2
   m_Radius: 0.7
+--- !u!114 &114158891090485698
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1109505209602272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ec4847038dc6456ebc001f39d5bd914, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114408316517536306
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -118,7 +130,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56d2d1914badc48fcb25c6c5610b43c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  force: 800
+  force: 1000
 --- !u!212 &212057114666655206
 SpriteRenderer:
   m_ObjectHideFlags: 1

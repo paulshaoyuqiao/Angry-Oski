@@ -1,23 +1,29 @@
 ﻿<Properties StartupConfiguration="{EB1C78D9-5AA1-8AA5-6FFF-C3AB693ADFFE}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/LMenu.cs">
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameManager.cs">
     <Files>
-      <File FileName="Assets/Borders.cs" Line="9" Column="39" />
-      <File FileName="Assets/Spawn.cs" Line="20" Column="22" />
-      <File FileName="Assets/PullRelease.cs" Line="13" Column="37" />
-      <File FileName="Assets/BreakUponImpact.cs" Line="23" Column="6" />
-      <File FileName="Assets/CollisionSpawnOnce.cs" Line="14" Column="6" />
-      <File FileName="Assets/Path.cs" Line="15" Column="6" />
-      <File FileName="Assets/RubberAction.cs" Line="28" Column="60" />
-      <File FileName="Assets/BreakOnImpactExceptItIsAnL.cs" Line="16" Column="22" />
-      <File FileName="Assets/LMenu.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/BreakOnImpactExceptItIsAnL.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Borders.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/BreakUponImpact.cs" Line="9" Column="25" />
+      <File FileName="Assets/Scripts/CollisionSpawnOnce.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/LMenu.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Path.cs" Line="23" Column="46" />
+      <File FileName="Assets/Scripts/PullRelease.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/RubberAction.cs" Line="39" Column="56" />
+      <File FileName="Assets/Scripts/ButtonSFX.cs" Line="17" Column="12" />
+      <File FileName="Assets/MenuTemplate/Scripts/UIAndMenu/PauseManager.cs" Line="42" Column="47" />
+      <File FileName="Assets/Scripts/Spawn.cs" Line="16" Column="1" />
+      <File FileName="Assets/Scripts/MovementChecker.cs" Line="14" Column="6" />
+      <File FileName="Assets/Scripts/TimerDestroyer.cs" Line="7" Column="30" />
+      <File FileName="Assets/Scripts/HealthOnImpact.cs" Line="62" Column="36" />
+      <File FileName="Assets/Scripts/AudioAdjuster.cs" Line="15" Column="27" />
+      <File FileName="Assets/Scripts/GameManager.cs" Line="9" Column="27" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp-Editor PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
 </Properties>
