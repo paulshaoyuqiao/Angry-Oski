@@ -9,6 +9,7 @@ public class PullRelease : MonoBehaviour {
 
     //The Default Force Added to Oski upon its Release
     public float force = 100;
+    public float destroyAfter = 15f;
 
     //Initialization of the Position
     private void Start()
@@ -24,6 +25,13 @@ public class PullRelease : MonoBehaviour {
         //Apply the Force
         Vector2 dir = -(Vector2)transform.position + startPos;
         GetComponent<Rigidbody2D>().AddForce(dir * force);
+
+        // Add oski count in game maneger
+        GameManager.oskiCount += 1;
+
+        // Destroy this object after setted seconds
+        TimerDestroyer destroyer = gameObject.AddComponent<TimerDestroyer>();
+        destroyer.timer = destroyAfter;
 
         //Remove the Script's Effect
         Destroy(this);

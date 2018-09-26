@@ -24,15 +24,18 @@ public class RubberAction : MonoBehaviour {
     private void OnTriggerStay2D(Collider2D collision)
     {
         //Account for Stretching the Slingshot Rubber
+        if (collision.CompareTag("Player"))
+        {
             adjustRubber(collision.transform, leftRubber);
             adjustRubber(collision.transform, rightRubber);
+        }
 
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
         //Readjust the Rubber 
-        leftRubber.localScale = new Vector2(0, 1);
-        rightRubber.localScale = new Vector2(0, 1);
+            leftRubber.localScale = new Vector2(0, 1);
+            rightRubber.localScale = new Vector2(0, 1);
     }
 }

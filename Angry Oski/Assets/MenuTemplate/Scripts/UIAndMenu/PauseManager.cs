@@ -16,6 +16,8 @@ namespace MenuTemp
         public AudioMixerSnapshot paused;
         public AudioMixerSnapshot unpaused;
 
+        public ButtonSFX buttonSFX;
+
         Canvas canvas;
 
         void Start()
@@ -33,6 +35,12 @@ namespace MenuTemp
 
         public void Pause()
         {
+            if (!canvas.enabled){
+                buttonSFX.PlayButtonUpSFX();
+            }
+            else {
+                buttonSFX.PlayButtonDownSFX();
+            }
             canvas.enabled = !canvas.enabled;
             Time.timeScale = Time.timeScale == 0 ? 1 : 0;
             Lowpass();

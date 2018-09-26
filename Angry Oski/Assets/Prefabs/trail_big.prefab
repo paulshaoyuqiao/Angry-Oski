@@ -20,6 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4862308934853730}
   - component: {fileID: 212281270823927198}
+  - component: {fileID: 114336029837159524}
   m_Layer: 0
   m_Name: trail_big
   m_TagString: Untagged
@@ -40,6 +41,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114336029837159524
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1081864055016514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e404668e732524d38be4af6f5a804d52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timer: 3
 --- !u!212 &212281270823927198
 SpriteRenderer:
   m_ObjectHideFlags: 1

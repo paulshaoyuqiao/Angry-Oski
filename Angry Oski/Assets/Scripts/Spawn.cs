@@ -6,13 +6,14 @@ public class Spawn : MonoBehaviour {
 
     //Oski Prefab that will be spawned
     public GameObject oskiPrefab;
+    public MovementChecker movementChecker;
 
     //Checks if there is an Oski in the Trigger Area
     bool present = false;
 
     private void FixedUpdate(){
         //If the Oski is no longer within the trigger area, time to spawn the next Oski!
-        if(!present && !sceneMoving()){
+        if(!present && !movementChecker.moving){
             spawnNext();
         }
     }
@@ -35,6 +36,10 @@ public class Spawn : MonoBehaviour {
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        present = false;
+        if (collision.CompareTag("Player"))
+        {
+            present = false;
+        }
+        collision.tag = "Projectile";
     }
 }
